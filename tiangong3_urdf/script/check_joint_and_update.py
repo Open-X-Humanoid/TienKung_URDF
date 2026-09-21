@@ -169,7 +169,7 @@ def update_urdf_joint_properties(urdf_file, joint_name, joint_properties):
 
 if __name__ == "__main__":
     urdf_file = "../urdf/tiangong3.urdf"
-    csv_file = "../关键参数/URDF关键参数表 - 天工3.0(4轴臂).csv"
+    csv_file = "../关键参数/URDF关键参数表 - 天工3.0(V3).csv"
     names = find_joint_name_in_csv(csv_file)
     missing_joints = check_urdf_joints(urdf_file, names)
 

@@ -160,7 +160,7 @@ def update_urdf_link_properties(urdf_file, link_name, link_properties):
 
 if __name__ == "__main__":
     urdf_file = "../urdf/tiangong3.urdf"
-    csv_file = "../关键参数/URDF关键参数表 - 天工3.0(4轴臂).csv"
+    csv_file = "../关键参数/URDF关键参数表 - 天工3.0(V3).csv"
     names = find_link_name_in_csv(csv_file)
     missing_links = check_urdf_links(urdf_file, names)
     if missing_links:
