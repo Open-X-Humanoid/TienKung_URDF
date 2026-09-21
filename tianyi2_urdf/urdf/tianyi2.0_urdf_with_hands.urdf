@@ -53,7 +53,7 @@
     <parent link="base"/>
     <child link="first_leg_pitch_link"/>
     <axis xyz="0 1 0"/>
-    <limit effort="332.0" lower="-0.41887902047863906" upper="1.0471975511965976" velocity="3.9269908169872414"/>
+    <limit effort="332.0" lower="-0.41887902047863906" upper="0.9075712110370514" velocity="3.9269908169872414"/>
   </joint>
   <link name="second_leg_pitch_link">
     <inertial>
@@ -82,7 +82,7 @@
     <parent link="first_leg_pitch_link"/>
     <child link="second_leg_pitch_link"/>
     <axis xyz="0 1 0"/>
-    <limit effort="332.0" lower="-0.5061454830783556" upper="1.7453292519943295" velocity="3.9269908169872414"/>
+    <limit effort="332.0" lower="-1.7453292519943295" upper="0.5061454830783556" velocity="3.9269908169872414"/>
   </joint>
   <link name="waist_pitch_link">
     <inertial>
@@ -111,7 +111,7 @@
     <parent link="second_leg_pitch_link"/>
     <child link="waist_pitch_link"/>
     <axis xyz="0 1 0"/>
-    <limit effort="332.0" lower="-2.0943951023931953" upper="0.7853981633974483" velocity="3.9269908169872414"/>
+    <limit effort="332.0" lower="-0.7853981633974483" upper="2.0943951023931953" velocity="3.9269908169872414"/>
   </joint>
   <link name="waist_yaw_link">
     <inertial>
